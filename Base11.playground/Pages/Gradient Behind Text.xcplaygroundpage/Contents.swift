@@ -61,8 +61,8 @@ let fillView = UIView(frame:CGRect(x: 0, y: 250, width: 300, height: 50))
 fillView.backgroundColor = UIColor.black
 //viewWithText.addSubview(fillView)
 labelView.text = "Hello, World!"
-labelView.textColor = UIColor.black
-viewWithText.backgroundColor = UIColor.white
+labelView.textColor = UIColor.green
+viewWithText.backgroundColor = UIColor.orange
 viewWithText.addSubview(labelView)
 let mask = viewWithText.mask()
 
